@@ -76,10 +76,6 @@
   gap: 1rem;
 }
 
-.challengeContainer p img {
-  margin-bottom: 1rem;
-}
-
 .challengeActive footer button {
   height: 3rem;
 
@@ -108,4 +104,8 @@
 
 .challengeActive footer button.challengeFailedButton {
   background: var(--red);
+}
+
+.challengeContainer p img {
+  margin-bottom: 1rem;
 }
