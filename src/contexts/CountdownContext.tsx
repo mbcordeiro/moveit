@@ -41,6 +41,7 @@ export function CountdownProvider({ children }: ChallengesProviderProps) {
   function resetCountdown() {
     clearTimeout(countdownTimeout);
     setIsActive(false);
+    setHasFinished(false);
     setTime(25 * 60);
   }
 
